@@ -1,0 +1,141 @@
+/* The Glitch Out effect library
+ * Hack your webpage!
+ * By DuLt Nuno Pinto
+ */
+
+ /*Text effects*/
+.gOut-1 {font-family: serif;}
+.gOut-2 {font-family: sans;}
+.gOut-3 {font-family: monospace;}
+.gOut-4 {font-family: cursive;}
+.gOut-5 {font-family: fantasy;}
+.gOut-6 {font-weight: bold;}
+.gOut-7 {font-style: italic;}
+.gOut-8 {text-decoration: underline;}
+.gOut-9 {letter-spacing: -0.25em;}
+.gOut-10 {letter-spacing: 0.5em;}
+.gOut-11 {letter-spacing: -0.75em;}
+.gOut-12 {direction: rtl;}
+
+/*Colored Shadows*/
+.gOut-13 {filter: drop-shadow(12px 24px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-25px 6px 0px rgba(0, 155, 255, 0.75)) drop-shadow(2px -10px 0px rgba(255, 255, 255, 0.5));}
+.gOut-14 {filter: drop-shadow(1px 5px 0px rgba(255, 0, 255, 0.75)) drop-shadow(26px -28px 0px rgba(0, 155, 255, 0.75)) drop-shadow(24px -6px 0px rgba(255, 255, 255, 0.5));}
+.gOut-15 {filter: drop-shadow(-28px -23px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-10px -9px 0px rgba(0, 155, 255, 0.75)) drop-shadow(12px 11px 0px rgba(255, 255, 255, 0.5));}
+.gOut-16 {filter: drop-shadow(-2px 27px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-15px 24px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-6px 6px 0px rgba(255, 255, 255, 0.5));}
+.gOut-17 {filter: drop-shadow(8px 2px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-13px 1px 0px rgba(0, 155, 255, 0.75)) drop-shadow(25px -11px 0px rgba(255, 255, 255, 0.5));}
+.gOut-18 {filter: drop-shadow(-13px 20px 0px rgba(255, 0, 255, 0.75)) drop-shadow(10px -2px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-23px 21px 0px rgba(255, 255, 255, 0.5));}
+.gOut-19 {filter: drop-shadow(-28px -22px 0px rgba(255, 0, 255, 0.75)) drop-shadow(10px -24px 0px rgba(0, 155, 255, 0.75)) drop-shadow(13px -28px 0px rgba(255, 255, 255, 0.5));}
+.gOut-20 {filter: drop-shadow(23px 4px 0px rgba(255, 0, 255, 0.75)) drop-shadow(28px 17px 0px rgba(0, 155, 255, 0.75)) drop-shadow(28px -18px 0px rgba(255, 255, 255, 0.5));}
+.gOut-21 {filter: drop-shadow(1px 22px 0px rgba(255, 0, 255, 0.75)) drop-shadow(25px -30px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-10px 21px 0px rgba(255, 255, 255, 0.5));}
+.gOut-22 {filter: drop-shadow(1px -28px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-15px -10px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-21px 27px 0px rgba(255, 255, 255, 0.5));}
+.gOut-23 {filter: drop-shadow(16px -6px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-4px -23px 0px rgba(0, 155, 255, 0.75)) drop-shadow(27px 19px 0px rgba(255, 255, 255, 0.5));}
+.gOut-24 {filter: drop-shadow(27px 16px 0px rgba(255, 0, 255, 0.75)) drop-shadow(29px -28px 0px rgba(0, 155, 255, 0.75)) drop-shadow(21px -2px 0px rgba(255, 255, 255, 0.5));}
+.gOut-25 {filter: drop-shadow(-9px 11px 0px rgba(255, 0, 255, 0.75)) drop-shadow(12px -29px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-15px 14px 0px rgba(255, 255, 255, 0.5));}
+.gOut-26 {filter: drop-shadow(15px 25px 0px rgba(255, 0, 255, 0.75)) drop-shadow(15px -16px 0px rgba(0, 155, 255, 0.75)) drop-shadow(20px 17px 0px rgba(255, 255, 255, 0.5));}
+.gOut-27 {filter: drop-shadow(29px -9px 0px rgba(255, 0, 255, 0.75)) drop-shadow(22px 6px 0px rgba(0, 155, 255, 0.75)) drop-shadow(18px 10px 0px rgba(255, 255, 255, 0.5));}
+.gOut-28 {filter: drop-shadow(-27px 21px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-29px 21px 0px rgba(0, 155, 255, 0.75)) drop-shadow(12px -9px 0px rgba(255, 255, 255, 0.5));}
+.gOut-29 {filter: drop-shadow(18px -7px 0px rgba(255, 0, 255, 0.75)) drop-shadow(11px 7px 0px rgba(0, 155, 255, 0.75)) drop-shadow(30px 0px 0px rgba(255, 255, 255, 0.5));}
+.gOut-30 {filter: drop-shadow(-1px -7px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-4px -2px 0px rgba(0, 155, 255, 0.75)) drop-shadow(11px -21px 0px rgba(255, 255, 255, 0.5));}
+.gOut-31 {filter: drop-shadow(-18px -28px 0px rgba(255, 0, 255, 0.75)) drop-shadow(24px 30px 0px rgba(0, 155, 255, 0.75)) drop-shadow(-15px 0px 0px rgba(255, 255, 255, 0.5));}
+.gOut-32 {filter: drop-shadow(12px -12px 0px rgba(255, 0, 255, 0.75)) drop-shadow(-2px -19px 0px rgba(0, 155, 255, 0.75)) drop-shadow(24px -25px 0px rgba(255, 255, 255, 0.5));}
+
+/*Opacity*/
+.gOut-33 {opacity: 0.25;}
+.gOut-34 {opacity: 0.5;}
+.gOut-35 {opacity: 0.75;}
+
+/*Skew*/
+.gOut-36 {transform: skew(50deg, 6deg);}
+.gOut-37 {transform: skew(-24deg, 3deg);}
+.gOut-38 {transform: skew(-26deg, -10deg);}
+.gOut-39 {transform: skew(41deg, 0deg);}
+.gOut-40 {transform: skew(41deg, 10deg);}
+.gOut-41 {transform: skew(-6deg, -8deg);}
+.gOut-42 {transform: skew(9deg, 8deg);}
+.gOut-43 {transform: skew(21deg, -9deg);}
+.gOut-44 {transform: skew(-28deg, 2deg);}
+.gOut-45 {transform: skew(-53deg, -5deg);}
+.gOut-46 {transform: skew(-52deg, -7deg);}
+.gOut-47 {transform: skew(-35deg, 10deg);}
+.gOut-48 {transform: skew(54deg, 2deg);}
+.gOut-49 {transform: skew(-49deg, -6deg);}
+.gOut-50 {transform: skew(-35deg, 6deg);}
+.gOut-51 {transform: skew(17deg, -8deg);}
+.gOut-52 {transform: skew(3deg, -6deg);}
+.gOut-53 {transform: skew(2deg, -4deg);}
+.gOut-54 {transform: skew(6deg, 3deg);}
+.gOut-55 {transform: skew(-19deg, 8deg);}
+.gOut-56 {transform: skew(5deg, -1deg);}
+.gOut-57 {transform: skew(-58deg, 3deg);}
+.gOut-58 {transform: skew(-6deg, 8deg);}
+.gOut-59 {transform: skew(8deg, 3deg);}
+.gOut-60 {transform: skew(-37deg, 1deg);}
+
+/*Scale*/
+.gOut-61 {scale: 0,5 1,4;}
+.gOut-62 {scale: 0,9 1,2;}
+.gOut-63 {scale: 1,5 0,8;}
+.gOut-64 {scale: 1,4 0,8;}
+.gOut-65 {scale: 0,6 1,1;}
+.gOut-66 {scale: 0,6 1,4;}
+.gOut-67 {scale: 1,5 1;}
+.gOut-68 {scale: 0,6 0,6;}
+.gOut-69 {scale: 0,9 0,6;}
+.gOut-70 {scale: 1 0,9;}
+.gOut-71 {scale: 0,9 1,4;}
+.gOut-72 {scale: 1,1 0,8;}
+.gOut-73 {scale: 0,6 1,1;}
+.gOut-74 {scale: 1,3 1,4;}
+.gOut-75 {scale: 1,1 0,8;}
+.gOut-76 {scale: 1 1,5;}
+.gOut-77 {scale: 1 0,6;}
+.gOut-78 {scale: 1,4 1;}
+.gOut-79 {scale: 1,4 0,9;}
+.gOut-80 {scale: 0,9 0,6;}
+.gOut-81 {scale: 1,3 0,5;}
+.gOut-82 {scale: 1,4 1,4;}
+.gOut-83 {scale: 0,7 1,1;}
+.gOut-84 {scale: 0,8 1,1;}
+.gOut-85 {scale: 1,5 0,9;}
+
+/*Translate*/
+.gOut-86 {translate: -18px -15px;}
+.gOut-87 {translate: -15px -29px;}
+.gOut-88 {translate: -26px 25px;}
+.gOut-89 {translate: -22px 7px;}
+.gOut-90 {translate: 7px -22px;}
+.gOut-91 {translate: 13px 11px;}
+.gOut-92 {translate: 11px -24px;}
+.gOut-93 {translate: 13px 29px;}
+.gOut-94 {translate: -2px -26px;}
+.gOut-95 {translate: 4px -12px;}
+.gOut-96 {translate: -5px 23px;}
+.gOut-97 {translate: 16px 11px;}
+.gOut-98 {translate: 18px 3px;}
+.gOut-99 {translate: 3px -14px;}
+.gOut-100 {translate: -18px 14px;}
+.gOut-101 {translate: 2px 28px;}
+.gOut-102 {translate: -19px -1px;}
+.gOut-103 {translate: 7px -3px;}
+.gOut-104 {translate: -18px 1px;}
+.gOut-105 {translate: -7px 30px;}
+
+/*Clip*/
+.gOut-106 {clip-path: polygon(0% 0%, 0% 100%, 100% 100%);}
+.gOut-107 {clip-path: polygon(8% 61%, 88% 100%, 62% 43%);}
+.gOut-108 {clip-path: polygon(61% 48%, 37% 100%, 82% 91%);}
+.gOut-109 {clip-path: polygon(36% 73%, 38% 22%, 59% 3%);}
+.gOut-110 {clip-path: polygon(82% 24%, 92% 19%, 38% 15%);}
+.gOut-111 {clip-path: polygon(36% 25%, 77% 95%, 85% 47%);}
+.gOut-112 {clip-path: polygon(45% 89%, 57% 11%, 85% 78%);}
+.gOut-113 {clip-path: polygon(17% 93%, 29% 5%, 12% 58%);}
+.gOut-114 {clip-path: polygon(55% 61%, 77% 97%, 12% 60%);}
+.gOut-115 {clip-path: polygon(58% 94%, 97% 61%, 80% 19%);}
+.gOut-116 {clip-path: polygon(30% 32%, 32% 58%, 9% 61%);}
+
+
+/*Transition*/
+.gOut-117 {transition: all 0.25s ease;}
+.gOut-118 {transition: all 0.5s ease;}
+.gOut-119 {transition: all 0.75s ease;}
+.gOut-120 {transition: all 1s ease;}
