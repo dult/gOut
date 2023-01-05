@@ -1,6 +1,6 @@
 # gOut
 
-This a small effects functions that will make a page look like it glitching out.
+This a small effects functions that will make a page look like it's glitching out.
 
 Just add gOut.js and gOut.css to your page and run gOut.start().
 
